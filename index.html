@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="images/Logo-transparent.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script
+        src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+          (function() {
+          emailjs.init("user_PnMAR6UBI8Fp7KCaQFdRa");
+          })();
+          </script>
+
+        <title>FEDI KHALED</title>
+    </head>
+    <body>
+        <!-- PAGE LOADER START -->
+ <!--<section class="page_load">
+    <div class="loader">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+        <span style="--i:4;"></span>
+        <span style="--i:5;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:7;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:9;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+    </div>
+</section>-->
+<!-- PAGE LOADER END-->
+
+<!-- NAVBAR START -->
+        <nav class="nav">
+            <div class="logo"></div>
+            <div class="nav_menu" id="nav-menu">
+                <div class="icon cancel_bar">
+                    <i class="fa fa-times"></i>
+                  </div>
+                <a href="#home" class="nav__link">
+                  <img src="images/home-icon.svg"/>
+                  <span class="nav_item">HOME</span>
+                </a>
+                <a href="#about" class="nav__link">
+                  <img src="images/search-icon.svg"/>
+                  <span class="nav_item">About</span>
+                </a>
+                <a href="#skill" class="nav__link">
+                  <img src="images/watchlist-icon.svg"/>
+                  <span class="nav_item">Skills</span>
+                </a>
+                <a href="#last-work" class="nav__link">
+                  <img src="images/original-icon.svg"/>
+                  <span class="nav_item">Last Works</span>
+                </a>
+                <a href="#port" class="nav__link">
+                  <i class="fa fa-briefcase"></i>
+                  <span class="nav_item">Portfolio</span>
+                </a>
+                <a href="#contact" class="nav__link">
+                  <i class="fa fa-comments"></i>
+                  <span class="nav_item">Contact</span>
+                </a>
+              </div>
+              <div class="icon menu_bar">
+                <i class="fa fa-bars"></i>
+              </div>
+        </nav>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="max-width">
+                    <div class="home_content">
+                        <div class="text-1">Hello, My name is</div>
+                        <div class="text-2">Fedi Khaled</div>
+                        <div class="text-3">I'm a <br/> <span class="typing"></span></div>
+                        <a href="#contact" class="hire_button">Hire Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about" id="about">
+                <div class="max-width">
+                  <div class="title-text">
+                    <p>About Me</p>
+                    <h1>Who I am</h1>
+                 </div>
+                  <div class="about-content">
+                    <div class="col left">
+                        <img src="images/about.jpg">
+                    </div>
+                    <div class="col right">
+                        <div class="text">I'm Fedi and I'm a <span class="typing2"></span></div>
+                        <p class="about__p">I'm a future Software Engineer located in Monastir, Tunisia.
+                          I have serious passion for WebDesign, UI effects, animations and creating
+                          intuitive, dynamic user experiences. Well-organized person, problem solver, independent
+                          employee with high attention to detail. Interested in Web and App Development.
+                          I love working on ambitious projects with positive people. <br />
+                          Let's make something special together.
+                        </p>
+                                <a href="fedi_cv.pdf" class="about__button">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
+                <!-- SKILLS SECTION START -->
+    <section class="skill" id="skill">
+        <div class="max-width">
+          <div class="title-text">
+            <p>My Skills</p>
+            <h1>What I provide</h1>
+        </div>
+      <div class="skill_container">
+        <div class="card">
+          <div class="face" data-text="Coding">
+              <img src="images/data.png" alt="">
+          </div>
+            <div class="content">
+              <div>
+                <h3>Coding</h3>
+              <p>With actually +1 year of experience in coding using HTML5 , CSS3 , Vanilla JavaScript, React Js, Redux, node.js and so many others
+                in order to become a Fullstack Developer.</p>
+              </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="face" data-text="Design">
+              <img src="images/sketch.png" alt="">
+          </div>
+            <div class="content">
+              <div>
+                <h3>Design</h3>
+              <p>As a hobby I learnt so many tricks and actually I tried to learn the concept of UX/UI Design as well as graphic Design such as photoshop and Illustrator tools </p>
+            </div>
+              </div>
+        </div>
+        <div class="card">
+          <div class="face" data-text="Editing">
+              <img src="images/video.png" alt="">
+          </div>
+            <div class="content">
+             <div>
+              <h3>Video Editing</h3>
+              <p>As my best hobby, i tried to be a little bit professional in Video Editing .I have edited so many videos : association(AIESEC), ATAST CLUB ISSATSO, University projects ,YouTube videos
+                ,using Adobe Premiere Pro and Filmora...
+              </p>
+             </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="face" data-text="Motion">
+              <img src="images/animation.png" alt="">
+          </div>
+            <div class="content">
+             <div> <h3>Motion Graphic</h3>
+              <p>For a better experience in WebDesign I learnt After Effects and how to create motion graphics as well as many other tricks using that software and that's helps me to make the difference.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="face" data-text="Illustration">
+              <img src="images/pen-tool.png" alt="">
+          </div>
+            <div class="content">
+             <div>
+              <h3>Illustration</h3>
+              <p>Since my childhood, My dream was to make my own logo So i start learning the basics of logo design and i tried to make my own ownes as well as building certificates and badges for an event organized in our university(4C ISSATSO 2021).</p>
+             </div>
+            </div>
+        </div>
+      </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION END -->
+
+      <section class="work" id="last-work">
+        <div class="title-text">
+          <p>Last Works</p>
+          <h1>What I did Lastly</h1>
+      </div>
+      <div class="work-container">
+       <!-- <div id="work">
+          <div class="box">
+            <h2 data-jarallax-element="0 -200">Disney+ Clone Website</h2>
+            <div class="cont_ainer">
+              <div class="imgBx jarallax">
+                <img src="images/disney.png" class="jarallax-img">
+              </div>
+              <div class="content"  data-jarallax-element="-200 0">
+                <p>Inspired from the officiel Website of Disney+. <br />
+                Build with different tools: HTML5, Styled Components, React js, React Router, React Hook and firebase
+              This project helps me to improve my skills with new techniques and skills .</p>
+              </div>
+            </div>
+          </div>
+          </div>-->
+          <div id="work">
+            <div class="box">
+              <h2 data-jarallax-element="0 200">Netflix Clone Website</h2>
+              <div class="cont_ainer">
+                <div class="imgBx jarallax">
+                  <img src="images/netflix.png" class="jarallax-img">
+                </div>
+                <div class="content"  data-jarallax-element="-200 0">
+                  <p>actually it seems like Netflix Website but this is Just a demo to bring my self to a higher level using React js ,how to get TMDB API key and becoming familiar with firebase. </p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+              <div id="work">
+                <div class="box">
+                  <h2 data-jarallax-element="0 200">Restaurant Website</h2>
+                  <div class="cont_ainer">
+                    <div class="imgBx jarallax">
+                      <img src="images/food.png" class="jarallax-img">
+                    </div>
+                    <div class="content"  data-jarallax-element="-200 0">
+                      <p>Responsive restaurant Website using HTML5, CSS3, and JavaScript
+                        inspired from real restaurant Websites with focus on javascript and how to manipulate tasks to the website is comming to life .
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div id="work">
+                  <div class="box">
+                    <h2 data-jarallax-element="0 -200">Travel Website</h2>
+                    <div class="cont_ainer">
+                      <div class="imgBx jarallax">
+                        <img src="images/travel.png" class="jarallax-img">
+                      </div>
+                      <div class="content"  data-jarallax-element="-200 0">
+                        <p>It seems like a Real Travel Design Website but it's not, JUST A DEMO .using HTML5, CSS3, and vanilla JavaScript.
+                          i have focused on Grid and flexbox properties ,variables in CSS ,JavaScript DOM and i have used SASS also.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div id="work">
+                    <div class="box">
+                      <h2 data-jarallax-element="0 200">Programming Website</h2>
+                      <div class="cont_ainer">
+                        <div class="imgBx jarallax">
+                          <img src="images/coding.png" class="jarallax-img">
+                        </div>
+                        <div class="content"  data-jarallax-element="-200 0">
+                          <p>A simple website for a team teaching coding online in order to explain their job and get in touch with others for learning.I have used only HTML5 and CSS3 so it's a static website just to keep things as simple as I can as a beginner.</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div id="work">
+                      <div class="box">
+                        <h2 data-jarallax-element="0 200"> Outcamp Website</h2>
+                        <div class="cont_ainer">
+                          <div class="imgBx jarallax">
+                            <img src="images/Outcamp.jpg" class="jarallax-img">
+                          </div>
+                          <div class="content"  data-jarallax-element="-200 0">
+                            <p>A simple website for a team teaching coding online in order to explain their job and get in touch with others for learning.I have used only HTML5 and CSS3 so it's a static website just to keep things as simple as I can as a beginner.</p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+      </div>
+    </section>
+    <!-- LAST_WORKS SECTION END -->
+
+
+<!-- PORTFOLIO SECTION START -->
+<section class="port" id="port">
+  <div class="max-width">
+    <div class="title-text">
+      <p> My certificates</p>
+      <h1>What I have Mastered</h1>
+  </div>
+  <nav>
+    <div class="items">
+      <span class="item active" data-name="all">All</span>
+      <span class="item" data-name="illustrator">Illustrator</span>
+      <span class="item" data-name="photoshop">photoshop</span>
+      <span class="item" data-name="certificate">certificates</span>
+      <span class="item" data-name="editing">Editing</span>
+    </div>
+  </nav>
+  <div class="gallery">
+    <div class="image" data-name="illustrator"><span><img src="images/port/pic1.png" alt=""></span></div>
+    
+    <div class="image" data-name="photoshop"><span><img src="images/port/pic11.jpg" alt=""></span></div>
+    <div class="image" data-name="certificate"><span><img src="images/port/btech cert.jpg" alt=""></span></div>
+    <div class="image" data-name="certificate"><span><img src="images/port/4c.jpg" alt=""></span></div>
+    <div class="image" data-name="certificate"><span><img src="images/port/eniso cert.jpg" alt=""></span></div>
+    <div class="image" data-name="certificate"><span><img src="images/port/proxym.jpg" alt=""></span></div>
+    <div class="image video" data-name="editing"><span>
+      <img src="images/port/vid5.png" alt="">
+    </span>
+    <img src="images/play.png" class="play-btn" onclick="playVideo('images/port/vid5.mp4')">
+  </div>
+  <div class="image video" data-name="editing"><span>
+    <img src="images/port/vid1.png" alt="">
+  </span>
+  <img src="images/play.png" class="play-btn" onclick="playVideo('images/port/vid1.mp4')">
+</div>
+<div class="image video" data-name="editing"><span>
+  <img src="images/port/vid2.png" alt="">
+</span>
+<img src="images/play.png" class="play-btn" onclick="playVideo('images/port/vid2.mp4')">
+</div>
+<div class="image video" data-name="editing"><span>
+<img src="images/port/vid3.png" alt="">
+</span>
+<img src="images/play.png" class="play-btn" onclick="playVideo('images/port/vid3.mp4')">
+</div>
+  <div class="image" data-name="illustrator"><span><img src="images/port/pic2.png" alt=""></span></div>
+    <div class="image" data-name="illustrator"><span><img src="images/port/pic6.png" alt=""></span></div>
+    <div class="image" data-name="illustrator"><span><img src="images/port/pic12.png" alt=""></span></div>
+    
+  </div>
+  <div class="video-play" id="videoPlayer">
+    <video width="100%" controls autoplay id="myVideo">
+      <source src="images/port/vid1.mp4" type="video/mp4">
+    </video>
+    <img src="images/close.png" class="close-btn" onclick="stopVideo()">
+  </div>
+  </div>
+</section>
+<!-- PORTFOLIO SECTION END -->
+  
+           
+            
+               <!-- CONTACT SECTION START -->
+    <section class="contact" id="contact">
+        <div class="title-text">
+          <p>Contact Me</p>
+          <h1>How to contact me</h1>
+      </div>
+      <div class="contact-container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in Touch</h3>
+          <p class="contact_text">
+           I'm interested in freelance opportunities - especially ambitious or large projects.However, if you have other 
+           request or question, don't hesitate to use the form.
+          </p>
+  
+          <div class="info">
+            <div class="information">
+              <i class="fa fa-map-marker"></i>
+              <p>Mahdia, Tunisia</p>
+            </div>
+            <div class="information">
+              <i class="fa fa-globe"></i>
+              <p>fedikhaled.netlify.app</p>
+            </div>
+            <div class="information">
+                <i class="fa fa-phone"></i>
+              <p>+216 29 403 637</p>
+            </div>
+          </div>
+  
+          <div class="social-media">
+            <p>Connect with me :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/fdkh123" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com/fedikhaled?utm_medium=copy_link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/fedi-khaled" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+  
+          <form  id="myForm">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" id="name" required />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" id="email" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="subject" name="subject" class="input" id="subject" required />
+              <label for="">Subject</label>
+              <span>Subject</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" id="message" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send Message" class="btn" />
+          </form>
+        </div>
+      </div>        
+    </div>
+      </section>
+      <!-- CONTACT SECTION END -->
+
+           <!-- FOOTER PAGE START -->
+    <div class="footer">
+        <span></span>
+        <div class="copyright">
+          Created by <span>Fedi KHALED</span> |&copy; All Rights Reserved 2022
+        </div>
+      </div>
+    <!-- FOOTER PAGE END  -->
+
+    <!-- SCROLLUP BUTTON -->
+      <a href="#" class="scrollup" id="scroll-up"><i class="fa fa-arrow-up scrollup__icon" aria-hidden="true"></i></a>
+  
+
+
+
+
+
+<!-- JAVASCRIPT LIBRARIES -->
+      <script src="jarallax.js"></script>
+      <script src="jarallax-element.js"></script>
+      <script src="gsap.min.js"></script>
+      <script src="scrollreveal.min.js"></script>
+      <script type="text/javascript">
+            jarallax(document.querySelectorAll('.jarallax'), {
+          speed: 0.5
+      });
+      </script>
+
+    </body>
+</html>
